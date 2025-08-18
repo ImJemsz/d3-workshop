@@ -1,13 +1,8 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import BarChart from "../components/BarChart1";
 
-export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+function Home() {
+  const data = [10, 20, 30, 40, 50];
+  return <BarChart />;
 }
 
-export default function Home() {
-  return <Welcome />;
-}
+export default Home;
