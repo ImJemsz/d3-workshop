@@ -6,9 +6,9 @@ import ChartJsBarChart from "~/components/ChartJS_BarChart";
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      {/* <BarChart /> */}
+      <BarChart />
       {/* <PlotBarChart /> */}
-      <RechartBarChart />
+      {/* <RechartBarChart /> */}
       {/* <ChartJsBarChart /> */}
     </div>
   );
